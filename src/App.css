@@ -1,0 +1,108 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#main{
+  background-color: #20232a;
+  border: 1px solid white;
+  border-radius: 15px;
+  min-width: 500px;
+  min-height: 807px;
+  max-width: 500px;
+  max-height: 807px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  color: white;
+}
+#resarr{
+  background-color: #35373c;
+  border-bottom: 1px solid white;
+  border-top-left-radius:15px ;
+  border-top-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  overflow:auto;
+  justify-content: flex-end;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 320px;
+  max-height: 320px;
+  font-size:60px;
+  padding-bottom: 5px;
+  letter-spacing: 5px;
+}
+#storage{
+  font-size:30px;
+  opacity: 50%;
+  display: none;
+}
+.funcbut{
+  width: 125px;
+  height: 96px;
+  background-color: rgb(158, 158, 158);
+  font-size: larger;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+.funcbut:hover{
+  cursor: pointer;
+  background-color: rgb(209, 209, 209);
+}
+.opbut{
+  width: 125px;
+  height: 96px;
+  background-color:rgb(184, 120, 0);
+  font-size: larger;
+  color: white;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+.opbut:hover{
+  cursor:pointer;
+  background-color:rgb(191, 150, 74);
+}
+.opbut:focus{
+  background-color: white;
+  color:rgb(191, 150, 74);
+}
+.numbut{
+  width: 125px;
+  height: 96px;
+  background-color:rgb(30, 30, 30);
+  font-size: larger;
+  color: white;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+.numbut:hover{
+  cursor:pointer;
+  background-color:rgb(50, 50, 50);
+}
+#but0{
+  width: 250px;
+  height: 96px;
+  background-color:rgb(30, 30, 30);
+  font-size: larger;
+  color:white;
+  border-bottom-left-radius: 15px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+#but0:hover{
+  cursor: pointer;
+  background-color:rgb(50, 50, 50);
+  transition: all .2s ease-in-out;
+}
+#equals{
+  border-bottom-right-radius: 15px;
+}
